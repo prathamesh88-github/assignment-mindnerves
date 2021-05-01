@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>City & Poplulation List</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <container>
+            <row>
+                <table id="myTable" class="table" border="4">
+                    <thead>
+                        <tr>
+                            <th>US CITY</th>
+                            <td><input type="text" name="city" id="city" maxlength="30" required></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>US STATE</th>
+                            <td><input type="text" name="state" id="state" maxlength="30" required></td>
+                        </tr>
+
+                        <tr>
+                            <th>US POPULATION</th>
+                            <td><input type="number" name="population" id="population" required></td>
+                        </tr>
+                        <tr id="btna">
+                            <td colspan="2"><input type="button" name="button" id="btn" value="Add"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table border="4" id="show">
+                    <thead>
+                        <tr>
+                            <th><button>CITY</button></th>
+                            <th>STATE</th>
+                            <th data-type="number"><button>POPULATION</button></th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+                </table>
+            </row>
+        </container>
+    </center>
+</body>
+
+</html>
